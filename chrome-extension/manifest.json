@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "NotchFlow Chrome Companion",
+  "version": "0.1.0",
+  "description": "Sends the active Chrome tab to the local NotchFlow desktop companion.",
+  "permissions": ["tabs", "nativeMessaging"],
+  "background": { "service_worker": "background.js", "type": "module" }
+}
